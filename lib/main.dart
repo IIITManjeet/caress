@@ -51,9 +51,9 @@ class _AccessState extends State<Access> {
     sharedPreferences = await SharedPreferences.getInstance();
 
     try {
-      if (sharedPreferences.getString("caress101") != null) {
+      if (sharedPreferences.getString("caress900") != null) {
         setState(() {
-          patientInfo.email = sharedPreferences.getString("caress101")!;
+          patientInfo.email = sharedPreferences.getString("caress900")!;
           userAvailable = true;
         });
       }
@@ -207,7 +207,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                       email: email, password: password);
                               sharedPreferences =
                                   await SharedPreferences.getInstance();
-                              sharedPreferences.setString("caress101", email);
+                              sharedPreferences.setString("caress900", email);
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(

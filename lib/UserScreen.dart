@@ -2,14 +2,9 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:caress/Assessment.dart';
 import 'package:caress/Helpline.dart';
-import 'package:caress/Prediction.dart';
 import 'package:caress/main.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
-import 'package:timezone/timezone.dart' as tz;
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:health/health.dart';
@@ -79,10 +74,6 @@ class _UserDataState extends State<UserData> {
     var midnight = DateTime(now.year, now.month, now.day);
     var xyz = DateTime(now.year, now.month, now.day, now.hour, now.minute - 10);
     _steps = await health.getTotalStepsInInterval(midnight, now);
-    stepx = await health.getTotalStepsInInterval(xyz, now);
-    if (stepx == null) {
-      stepx = 0;
-    }
 
     String? heartRate;
     HealthValue? bpd;
@@ -309,7 +300,6 @@ class _UserDataState extends State<UserData> {
   void initState() {
     // TODO: implement initState
     if (run) {
-      initUsage();
       func();
       setState(() {
         run = false;
@@ -318,7 +308,8 @@ class _UserDataState extends State<UserData> {
     Timer.periodic(Duration(minutes: 1), (timer) {
       func();
     });
-    Timer.periodic(Duration(minutes: 1), (timer) {
+    Timer.periodic(Duration(minutes: 10), (timer) async {
+      await initUsage();
       notification();
       if (int.parse(_heart_rate!.split(".")[0]) > 100) {
         c = 1;
@@ -595,34 +586,6 @@ class _MenuState extends State<Menu> {
                   Navigator.pop(context);
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Helpline()));
-                },
-              ),
-              SizedBox(
-                height: 30,
-              ),
-              InkWell(
-                child: Row(
-                  children: [
-                    Icon(
-                      FontAwesomeIcons.stethoscope,
-                      color: Colors.black,
-                      size: 20,
-                    ),
-                    SizedBox(width: 15),
-                    Text(
-                      'Smart Prediction',
-                      textScaleFactor: 1,
-                      style: TextStyle(fontSize: 25, color: color),
-                    ),
-                  ],
-                ),
-                onTap: () {
-                  Navigator.pop(context);
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) =>
-                              Prediction(_bodytemp!, stepx!)));
                 },
               ),
               SizedBox(height: height / 2),
