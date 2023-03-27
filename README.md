@@ -1,8 +1,7 @@
-<h1 align="center">Hack36</h1>
+<h1 align="center">Google Solution Challenge 2023</h1>
 <p align="center">
 </p>
 
-<a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
 
 ## Introduction:
   Brief description of the project
@@ -20,10 +19,8 @@
   1) Flutter
   2) Dart
   3) Firebase
-  4) Flask REST API
-  5) Google Fit
-  6) NewsAPI
-  7) scikit-learn
+  4) Google Fit
+  5) NewsAPI
   
 
 ## Contributors:
@@ -118,8 +115,7 @@ Courtesy - https://console.cloud.google.com/apis
   percent_indicator: ^4.2.3<br>
   font_awesome_flutter: ^10.4.0<br>
 
-### Made at:
-<a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
+
 
 
  
