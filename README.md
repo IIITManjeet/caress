@@ -61,7 +61,7 @@ Courtesy - https://console.cloud.google.com/apis
 
 # App Screenshots
 
-<img src = "https://user-images.githubusercontent.com/110723566/227720701-55bf16ab-92ee-417f-85ee-d0f18c8e4116.jpeg" width = 200></img>&nbsp;
+<img src = "https://user-images.githubusercontent.com/110723566/227720701-55bf16ab-92ee-417f-85ee-d0f18c8e4116.jpeg" width = 200 ></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720705-1889b381-0c0a-4f79-9a25-55b83cc706b2.jpeg" width = 200></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720728-9167660a-c6bf-4a01-b3f9-7a481b4a476b.jpeg" width = 200></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720713-f7f345d9-4997-46dc-99f1-2a1f54bed3e6.jpeg" width = 200></img>&nbsp;
