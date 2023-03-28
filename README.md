@@ -4,13 +4,13 @@
 
 
 ## Introduction:
-  Brief description of the project
+As we all know, the health status of many is getting worst due to work stress and anxiety. Poor Mental Health has become the biggest problem for people. Most of the youth responsible for the growth of a country are crippled in the chains of depression and anxiety, thus slowing down developmental activities. Sadly, the problem is suffered by many yet not discussed openly. So here we the team "Ideavengers" bring a caretaker "CARESS" for all of them who suffer from the same but hesitate to tell.
   
 ## Demo Video Link:
   <a href="">Video Link</a>
   
 ## Presentation Link:
-  <a href=""> PPT link here </a>
+  <a href="https://docs.google.com/presentation/d/15uNn37Ne1BHc1Ht5Z4X_JvlUu-IsVYAx/edit?usp=sharing&ouid=116795368686984693045&rtpof=true&sd=true">Presentation</a>
   
   
 ## Table of Contents:
@@ -30,14 +30,13 @@ Team Name: Ideavengers
 * [Pranjal Dubey](https://github.com/dubey2709)
 * [Manjeet Pathak](https://github.com/IIITManjeet)
 * [Vinay Kumar](https://github.com/vink08)
+* [Shreem Asati](https://github.com/shreem-123)
 
 # Caress
-## Theme - Mental Health
+## Theme - Health and Well Being
 
-
-
-
-### Note - This app is currently in test mode and only users allowed by the admin who have a google account can use the app properly. The two possible publishing modes of the app are given below<br>
+### Note -
+This app is currently in test mode and only users allowed by the admin who have a google account can use the app properly. The two possible publishing modes of the app are given below<br>
 
 Publishing Status ( Important )<br>
 <li>In Production:
@@ -57,7 +56,6 @@ Courtesy - https://console.cloud.google.com/apis
 7. Application also consists of articles page(contains articles related to mental health) and profile page which consits the data of user which can be updated frequently.<br>
 8. Application also provides you with facility of self assessment of various mental health disorders such as Depression, PTSD, schizophrenia, addiction and anxiety. After taking the self assessment tests the results are shared with the specialist/doctor via an email.
 9. Helpline page is there in the application which includes helpline numbers and website links of 11 mental health healing websites for support. Call to any organisation can be just made by a single tap on the contact tile.
-10. One differentiating feature of the app is the smart stress analysis which works on a backend based ML model integrated using flask REST API. This smart stress analysis takes two inputs which is body temperature and no of steps you walked in past 30 minutes and based on these values and dataset which we are using in the backend, Application determines the probability level of stress you are having.
 
 
 
@@ -84,11 +82,9 @@ Courtesy - https://console.cloud.google.com/apis
 <img src = "https://user-images.githubusercontent.com/110723566/227720727-5901d113-3f19-49ce-ba9c-b289a044a4ad.jpeg" width = 200></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720725-39e2d2b2-6bcf-45fc-bf44-7a2a1db30959.jpeg" width = 200></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720731-3594326f-9cec-43c7-bc4f-4cd720286e12.jpeg" width = 200></img>&nbsp;
-<img src = "https://user-images.githubusercontent.com/110723566/227720733-534c419c-8bc2-4666-98e9-c70fc455a183.jpeg" width = 200></img>&nbsp;
-<img src = "https://user-images.githubusercontent.com/110723566/227720735-3e59338b-fa90-4ddc-9c65-ce97127ee5f1.jpeg" width = 200></img>&nbsp;
-<img src = "https://user-images.githubusercontent.com/110723566/227720737-b58afdc0-acf5-455f-896e-cdfff060bea2.jpeg" width = 200></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720739-c375f9d1-8a58-4a98-b893-f50bb839dff7.jpeg" width = 200></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720742-7f46c1a6-b583-4583-b75f-83c97a13bb4c.jpeg" width = 200></img>&nbsp;
+<img src = "https://user-images.githubusercontent.com/110723566/227720733-534c419c-8bc2-4666-98e9-c70fc455a183.jpeg" width = 200></img>&nbsp;
 
 
 ## Flutter dependecies used :
@@ -114,6 +110,18 @@ Courtesy - https://console.cloud.google.com/apis
   intl: ^0.17.0<br>
   percent_indicator: ^4.2.3<br>
   font_awesome_flutter: ^10.4.0<br>
+
+## Future Scope - 
+<li>Social Media Segmentation- To fetch one’s Social Media Posts, Messages and Screen Time. For example we can use Twitter Developer API’s to fetch one past tweets to judge one’s mental state.
+
+<li>Increase Accuracy of ML Model- To introduce and train a better ML model with better data which we get from the app. More data can help us predict with better accuracy and hence the model will be more reliable.
+
+<li>Embedded Training and support Videos – Integrate Mental Health Training videos for members which would suggest them various exercises to boost mental health. Simultaneously we’ll provide a peer to peer interaction of mental health experts in support of the same.
+
+<li>Live Mental health webinars and sessions –We could also integrate live webinars like feature in our app where special guests and renowned specialist will share their view and suggestions over mental illness.
+
+<li>Scalable the app for production purpose-  As we are using the health package in flutter application which requires certain google verifications, So due to some reasons our app is currently in testing mode and we want it to run in production mode later. 
+
 
 
 
