@@ -65,10 +65,7 @@ Courtesy - https://console.cloud.google.com/apis
 <img src = "https://user-images.githubusercontent.com/110723566/227720705-1889b381-0c0a-4f79-9a25-55b83cc706b2.jpeg" width = 200></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720728-9167660a-c6bf-4a01-b3f9-7a481b4a476b.jpeg" width = 200></img>&nbsp;
 <img src = "https://user-images.githubusercontent.com/110723566/227720713-f7f345d9-4997-46dc-99f1-2a1f54bed3e6.jpeg" width = 200></img>&nbsp;
-<img src = "https://user-images.githubusercontent.com/110723566/227720716-4dc8f813-4d0a-4cf1-aa07-cdf25103ebe0.jpeg" width = 200></img>&nbsp;
-<img src = "https://user-images.githubusercontent.com/110723566/227720727-5901d113-3f19-49ce-ba9c-b289a044a4ad.jpeg" width = 200></img>&nbsp;
-<img src = "https://user-images.githubusercontent.com/110723566/227720731-3594326f-9cec-43c7-bc4f-4cd720286e12.jpeg" width = 200></img>&nbsp;
-<img src = "https://user-images.githubusercontent.com/110723566/227720733-534c419c-8bc2-4666-98e9-c70fc455a183.jpeg" width = 200></img>&nbsp;
+
 
 
 ## Flutter dependecies used :
