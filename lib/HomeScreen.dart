@@ -54,6 +54,7 @@ class _HomescreenState extends State<Homescreen> {
       patientInfo.phoneNo = doc['friendPhone'];
       patientInfo.specialistName = doc['specialist'];
       patientInfo.specialistContact = doc['specialistContact'];
+      patientInfo.profile_link = doc['profilePic'];
     });
   }
 
