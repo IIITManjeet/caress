@@ -95,7 +95,7 @@ Courtesy - https://console.cloud.google.com/apis
 ## Future Scope - 
 <li>Social Media Segmentation- To fetch one’s Social Media Posts, Messages and Screen Time. For example we can use Twitter Developer API’s to fetch one past tweets to judge one’s mental state.
 
-<li>Increase Accuracy of ML Model- To introduce and train a better ML model with better data which we get from the app. More data can help us predict with better accuracy and hence the model will be more reliable.
+<li>Introducing ML Model for mental health analysis- To introduce and train a better ML model with better data which we get from the app. More data can help us predict with better accuracy and hence the model will be more reliable.
 
 <li>Embedded Training and support Videos – Integrate Mental Health Training videos for members which would suggest them various exercises to boost mental health. Simultaneously we’ll provide a peer to peer interaction of mental health experts in support of the same.
 
