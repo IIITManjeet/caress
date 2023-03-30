@@ -7,10 +7,10 @@
 As we all know, the health status of many is getting worst due to work stress and anxiety. Poor Mental Health has become the biggest problem for people. Most of the youth responsible for the growth of a country are crippled in the chains of depression and anxiety, thus slowing down developmental activities. Sadly, the problem is suffered by many yet not discussed openly. So here we the team "Ideavengers" bring a caretaker "CARESS" for all of them who suffer from the same but hesitate to tell.
   
 ## Demo Video Link:
-  <a href="">Video Link</a>
+  <a href="https://youtu.be/5eKm3i-gvhs">YouTube Video Link</a>
   
 ## Presentation Link:
-  <a href="https://docs.google.com/presentation/d/15uNn37Ne1BHc1Ht5Z4X_JvlUu-IsVYAx/edit?usp=sharing&ouid=116795368686984693045&rtpof=true&sd=true">Presentation</a>
+  <a href="https://docs.google.com/presentation/d/1j38X1-VAb2oq2lt5gXOh5Ql5l4GQUwz3/edit?usp=sharing&ouid=116795368686984693045&rtpof=true&sd=true">Presentation</a>
   
   
 ## Table of Contents:
